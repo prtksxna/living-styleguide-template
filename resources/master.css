@@ -75,7 +75,7 @@ p {
 
 /* Colors */
 .colorblock {
-	margin-top: 2em;
+	margin: 1em 0;
 	padding: 0;
 	padding-top: 160px;
 	text-align: center;
@@ -85,7 +85,7 @@ p {
 .colorblock .variable {
 	margin: 0;
 	padding: 0.2em;
-	background: #fff;
+	background: #f9f9f9;
 	font: 0.8em monospace;
 	color: #333;
 }
@@ -105,5 +105,11 @@ p {
 .color-13 { background: #ddd; color: #000; }
 .color-14 { background: #eee; color: #000; }
 .color-15 { background: #f9f9f9; color: #000; }
+
+.color-blue-1 { background: #3C6AFF; }
+.color-blue-2 { background: #294AB6; }
+.color-green-1 { background: #00B28C; }
+.color-green-2 { background: #006750; }
+
 
 /* Colors */
