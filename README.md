@@ -6,9 +6,11 @@ An example HTML page for the living styleguide. It implements the the following 
  * https://phabricator.wikimedia.org/M18
  * https://phabricator.wikimedia.org/M19
 
+You can checkout a [demo](http://prtksxna.github.io/living-styleguide-template/) of the page and also take a look at the [issues](https://github.com/prtksxna/living-styleguide-template/issues). These are both current bugs and things that we need to figure out.
+
 ## Usage
 
-Install bower components and open index.html
+Install bower components and open `index.html`.
 
 ```
 $ bower install
