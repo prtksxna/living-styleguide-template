@@ -13,7 +13,7 @@ h1 {
 h2 {
 	font: 1.5em 'Helvetica', 'Arial', sans-serif;
 	font-weight: bold;
-	margin-bottom: 0;
+	margin-bottom: 0.5em;
 }
 
 h3 {
@@ -117,7 +117,21 @@ p {
 .color-orange-2 { background: #C22800; }
 .color-yellow-1 { background: #FFB500; }
 .color-yellow-2 { background: #BA7A00; }
-
-
-
 /* Colors */
+
+
+/* Theme */
+.theme-color {
+	border-top: 1.5em solid;
+	padding-top: 1em;
+}
+
+.theme-color p {
+	font-weight: bold;
+}
+
+.theme-color-1 { border-color: #333; }
+.theme-color-2 { border-color: #aaa; }
+.theme-color-3 { border-color: #eee; }
+
+/* Theme */
