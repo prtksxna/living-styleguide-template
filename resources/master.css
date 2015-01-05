@@ -49,3 +49,20 @@ p {
 	outline: none;
 	box-shadow: none;
 }
+
+.navbar {
+	border: none;
+}
+
+.navbar-header {
+	background: #f9f9f9;
+	background-image: url( 'menu.svg' );
+	background-position: center left -10px;
+	background-repeat: no-repeat;
+}
+
+.navbar-header a {
+	color: #333;
+	text-transform: uppercase;
+	font-weight: bold;
+}
