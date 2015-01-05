@@ -7,9 +7,30 @@
 
 <body>
 
+<nav class="navbar">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/">mediawiki.ui</a>
+		</div>
 
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<div class="collapse navbar-collapse" id="topmenu">
+			<form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Search">
+				</div>
+			</form>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Desktop</a></li>
+				<li><a href="#">Mobile</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
