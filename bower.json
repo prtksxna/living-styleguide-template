@@ -1,0 +1,15 @@
+{
+  "name": "living-styleguide-template",
+  "version": "0.0.0",
+  "homepage": "https://github.com/prtksxna/living-styleguide-template",
+  "authors": [
+    "Prateek Saxena <prtksxna@gmail.com>"
+  ],
+  "description": "A template for MediaWiki's Living Styleguide",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}
