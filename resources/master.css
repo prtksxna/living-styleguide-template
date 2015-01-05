@@ -17,6 +17,7 @@ h2 {
 }
 
 h3 {
+	margin-top: 0;
 	font: 1.2em 'Helvetica', 'Arial', sans-serif;
 	font-weight: bold;
 }
@@ -133,5 +134,26 @@ p {
 .theme-color-1 { border-color: #333; }
 .theme-color-2 { border-color: #aaa; }
 .theme-color-3 { border-color: #eee; }
-
 /* Theme */
+
+
+/* Icons */
+.icon_grid > div {
+	display: table;
+	margin-bottom: 1em;
+}
+
+.icon_grid > div > p {
+	font-size: 1em;
+	word-break: break-word;
+	width: 100px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.icon_grid > div > img {
+	display: table-cell;
+	width: 40px;
+	float: left;
+}
+/* Icons */
