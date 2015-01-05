@@ -1,3 +1,4 @@
+/* Typography */
 body {
 	color: #333;
 	font-size: 16px;
@@ -29,7 +30,10 @@ p {
 	padding: 1em;
 	background: #f9f9f9;
 }
+/* Typography */
 
+
+/* Navbar */
 .search-input {
 	background: transparent;
 	border: none;
@@ -66,3 +70,40 @@ p {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+/* Navbar */
+
+
+/* Colors */
+.colorblock {
+	margin-top: 2em;
+	padding: 0;
+	padding-top: 160px;
+	text-align: center;
+	color: #fff;
+}
+
+.colorblock .variable {
+	margin: 0;
+	padding: 0.2em;
+	background: #fff;
+	font: 0.8em monospace;
+	color: #333;
+}
+
+.color-1 { background: #111; }
+.color-2 { background: #222; }
+.color-3 { background: #333; }
+.color-4 { background: #444; }
+.color-5 { background: #555; }
+.color-6 { background: #666; }
+.color-7 { background: #777; }
+.color-8 { background: #888; color: #000; }
+.color-9 { background: #999; color: #000; }
+.color-10 { background: #aaa; color: #000; }
+.color-11 { background: #bbb; color: #000; }
+.color-12 { background: #ccc; color: #000; }
+.color-13 { background: #ddd; color: #000; }
+.color-14 { background: #eee; color: #000; }
+.color-15 { background: #f9f9f9; color: #000; }
+
+/* Colors */
