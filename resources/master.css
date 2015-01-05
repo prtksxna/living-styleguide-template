@@ -1,0 +1,31 @@
+body {
+	color: #333;
+	font-size: 16px;
+}
+
+h1 {
+	font: 2em 'Geogia', 'Times', serif;
+	padding-bottom: 0.3em;
+	border-bottom: 1px solid #ddd;
+}
+
+h2 {
+	font: 1.5em 'Helvetica', 'Arial', sans-serif;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+h3 {
+	font: 1.2em 'Helvetica', 'Arial', sans-serif;
+	font-weight: bold;
+}
+
+p {
+	font: 0.8em 'Helvetica', 'Arial', sans-serif;
+}
+
+.example_container {
+	margin: 2em 0;
+	padding: 1em;
+	background: #f9f9f9;
+}
