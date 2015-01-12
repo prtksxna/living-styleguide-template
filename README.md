@@ -10,11 +10,12 @@ You can checkout a [demo](http://prtksxna.github.io/living-styleguide-template/)
 
 ## Usage
 
-Install bower components and open `index.html`.
+Install bower components and run an HTTP server.
 
 ```
 $ bower install
-$ open index.html
+$ python -m simpleHTTPServer 8181
+$ open localhost:8181
 ```
 
 ## Updating demo
