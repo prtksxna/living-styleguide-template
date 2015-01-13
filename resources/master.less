@@ -1,7 +1,11 @@
+@import "/lib/agora-grid/grid";
+
 /* Typography */
 body {
 	color: #333;
 	font-size: 16px;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
@@ -24,6 +28,11 @@ h3 {
 
 p {
 	font: 0.8em 'Helvetica', 'Arial', sans-serif;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
 }
 
 .example_container {
@@ -121,11 +130,10 @@ p {
 
 /* Colors */
 .colorblock {
-	margin: 1em 0;
-	padding: 0;
 	padding-top: 160px;
 	text-align: center;
 	color: #fff;
+	.mw-ui-one-sixth();
 
 	.variable {
 		margin: 0;
