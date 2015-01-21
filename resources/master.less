@@ -33,6 +33,10 @@ p {
 }
 /* Typography */
 
+html, body {
+	height: 100%;
+}
+
 /* Offscreen Navigation */
 #site-wrap {
 	min-width: 100%;
@@ -50,6 +54,10 @@ p {
 .site-shift {
 	left: 200px !important;
 	box-shadow: 0 0 20px 5px rgba(0,0,0,0.2);
+
+	.navbar {
+		left: 200px !important;
+	}
 }
 
 #off-navigation {
@@ -82,6 +90,13 @@ p {
 /* Navbar */
 .navbar {
 	border: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: inherit;
+	width: 100%;
+	height: 50px;
+	transition: left 0.2s;
 
 	.search-input {
 		background: transparent;
@@ -118,6 +133,10 @@ p {
 }
 /* Navbar */
 
+.container {
+	// Don't hide under the navbar.
+	margin-top: 50px;
+}
 
 /* Colors */
 .colorblock {
